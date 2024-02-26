@@ -1,4 +1,6 @@
 # CsharpRoadMap
+YouTube Link [(https://www.youtube.com/watch?v=1Lcr2c3MVF4&list=PLYpjLpq5ZDGstQ5afRz-34o_0dexr1RGa&index=3)]
+
 # Clean Architecture .Net 6
 
 There are 4 layers in Clean Architecture.
