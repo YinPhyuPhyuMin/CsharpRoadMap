@@ -17,5 +17,6 @@ There are 4 layers in Clean Architecture.
    * MediatorR - Library,Sending Our Commands and query Objects to their respective handlers
 
 # Domain Driven Architecture
- It is include in Application Layer. In Commmand and Query Handler, we use CQRS patterns with Domain Driven.
+ Use the Domain Driven Architecture in Domain Layer's Entity Class.
  We bind the data in Entity Constructor.
+ We need to change the Constructor and setter with private because we cannot change the value with new Object.
