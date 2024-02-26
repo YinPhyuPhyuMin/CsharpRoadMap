@@ -15,3 +15,7 @@ There are 4 layers in Clean Architecture.
 5. CommandHandlerShouldHaveDependencyOnDomain
 6. ControllerShouldHaveDependencyOnMediatorR
    * MediatorR - Library,Sending Our Commands and query Objects to their respective handlers
+
+# Domain Driven Architecture
+ It is include in Application Layer. In Commmand and Query Handler, we use CQRS patterns with Domain Driven.
+ We bind the data in Entity Constructor.
