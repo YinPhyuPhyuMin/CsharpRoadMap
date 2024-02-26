@@ -1,6 +1,6 @@
 # CsharpRoadMap
 Clean Architecture .Net 6
-++++++++++++++++++++++++++
+
 There are 4 layers in Clean Architecture.
 1. Domain Layer - Entities -(Can not reference the other layer)
 2. Application Layer - Business Logic (Service Layer) - (can reference the Domain Layer)
