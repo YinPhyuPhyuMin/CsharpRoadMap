@@ -20,5 +20,8 @@ There are 4 layers in Clean Architecture.
 
 # Domain Driven Architecture
  Use the Domain Driven Architecture in Domain Layer's Entity Class.
+
+ * Code Refactoring the Business Logic from Command Handler, Query Handlder in Application Layer to Domain Layer.
+
  We bind the data in Entity Constructor.
- We need to change the Constructor and setter with private because we cannot change the value with new Object.
+ We need to change the Constructor (internal) and property (private setter) because we cannot change the value from outer.
