@@ -1,13 +1,6 @@
 # CsharpRoadMap
 YouTube Link [(https://www.youtube.com/watch?v=1Lcr2c3MVF4&list=PLYpjLpq5ZDGstQ5afRz-34o_0dexr1RGa&index=3)]
 
-# Code first, Database First and Model First
-  * Questions
-    
-    1. Code First = Already have Existing Domain Classes
-    2. Database First = Existing Database
-    3. Model First = Prefer Visual Designer for Data Modeling
-    
 # Clean Architecture .Net 6
 
 There are 4 layers in Clean Architecture.
