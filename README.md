@@ -25,3 +25,12 @@ There are 4 layers in Clean Architecture.
 
  We bind the data in Entity Constructor.
  We need to change the Constructor (internal) and property (private setter) because we cannot change the value from outer.
+
+ IReadOnlyCollection - Cannot make Add,Delete for Entity from Outer.
+ Continuity - Track an object through the lifetime.
+ Identity - Object Defined. (Entity)
+
+ # What is the Entity
+ Create base Entity that contain common property like (id, created_date etc)
+
+ public Guid Id {get; private init;} = initalize the object
